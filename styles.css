@@ -1,5 +1,65 @@
 body {
 background-color: black;
-color: rgb(106, 0, 255);
-text-align: center;
 }
+ul {
+list-style-type: none;
+}
+h1 {
+color: rgb(125, 27, 245);
+font-size: 50px;
+}
+#elokuvanmuotoilu {
+color: blueviolet;
+}
+.headercolor {
+color: rgb(255, 221, 0);
+}
+.movieImg {
+margin: 25px;
+}
+.movieNameDiv {
+font-size: 30px;
+margin-top: 18px;
+margin-right: auto;
+width: fit-content;
+height: fit-content;
+}
+.movieYearDiv {
+font-size: 20px;
+margin-top: 10px;
+width: fit-content;
+height: fit-content;
+
+}
+.movieAgeLimitDiv {
+margin-top: 10px;
+width: fit-content;
+height: fit-content;
+}
+.movieGenreDiv {
+margin-top: 25px;
+margin-bottom: 50px;
+margin-left: 20px;
+margin-right: 25px;
+}
+.movieDescriptionDiv {
+margin-top: 20px;
+}
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 30px;
+    right: 40px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: rgb(255, 174, 0);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+  }
+  #myBtn:hover {
+    background-color: rgb(145, 42, 180);
+  }
