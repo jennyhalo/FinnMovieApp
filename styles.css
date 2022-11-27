@@ -1,22 +1,29 @@
+/* Muokataan koko sisällön tausta */
 body {
-background-color: black;
+background-color: rgb(0, 0, 0);
 }
+/* Poistetaan listasta tyylit */
 ul {
 list-style-type: none;
 }
+/* Muutetaan otsikon  väri ja koko */
 h1 {
 color: rgb(125, 27, 245);
 font-size: 50px;
 }
+/* Muutetaan jokaisen "li" elementin sisällä olevan tekstin väri */
 #elokuvanmuotoilu {
 color: blueviolet;
 }
+/* Muutetaan toisen puolen väri otsikossa */
 .headercolor {
 color: rgb(255, 221, 0);
 }
+/* Lisätään marginia elokuva kuville */
 .movieImg {
 margin: 25px;
 }
+/* Muutetaan elokuvan nimen tyyliä */
 .movieNameDiv {
 font-size: 30px;
 margin-top: 18px;
@@ -24,28 +31,32 @@ margin-right: auto;
 width: fit-content;
 height: fit-content;
 }
+/* Muutetaan tuotantovuoden tyyliä */
 .movieYearDiv {
 font-size: 20px;
 margin-top: 10px;
 width: fit-content;
 height: fit-content;
-
 }
+/* Muutetaan ikärajoitus divin tyyliä */
 .movieAgeLimitDiv {
 margin-top: 10px;
 width: fit-content;
 height: fit-content;
 }
+/* Muutetaan genre divin tyyliä */
 .movieGenreDiv {
 margin-top: 25px;
 margin-bottom: 50px;
 margin-left: 20px;
 margin-right: 25px;
 }
+/* Lisätään hieman Marginaalia kuvauksen yläpuolelle */
 .movieDescriptionDiv {
 margin-top: 20px;
 }
-#myBtn {
+/* Määritellään tyyli napille jolla pääsee takaisin sivun alkuun  */
+#backToTopBtn {
     display: none;
     position: fixed;
     bottom: 30px;
@@ -60,6 +71,7 @@ margin-top: 20px;
     padding: 15px;
     border-radius: 4px;
   }
-  #myBtn:hover {
+  /* Kursorin ollessa napin päällä, vaihdetaan napin väriä */
+  #backToTopBtn:hover {
     background-color: rgb(145, 42, 180);
   }
